@@ -1,0 +1,17 @@
+li {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    min-width: calc(100% / 4)
+}
+
+li:hover {
+    background-color: rgba(155, 207, 183, 0.377);
+}
+
+.title {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
