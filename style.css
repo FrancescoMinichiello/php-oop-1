@@ -10,7 +10,7 @@ li {
 }
 
 li:hover {
-    background-color: rgba(18, 69, 117, 0.377);
+    background-color: lightgray;
 }
 
 .title {
@@ -22,7 +22,7 @@ li:hover {
     position: absolute;
     top: 5px;
     right: 5px;
-    background-color: rgba(218, 55, 90, 0.493);
+    background-color: rgba(31, 30, 30, 0.644);
     border-radius: 15px;
     padding: 5px 10px;
 }
