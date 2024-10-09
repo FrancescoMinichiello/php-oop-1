@@ -66,10 +66,10 @@ $movies = [
     <div class="container-fluid">
         <div class="row">
             <div class="col d-flex justify-content-center">
-                <ul class="d-flex gap-5 mt-5 p-0 flex-wrap justify-content-center">
+                <ul class="d-flex gap-5 mt-5 p-5 flex-wrap justify-content-center">
                     <?php foreach ($movies as $item) { ?>
                     <li class="text-center">
-                        <span class="badges"><?= $item->isNew() ?></span>
+                        <span class="badges fw-bold text-white"><?= $item->isNew() ?></span>
                         <h2 class="title"> <?= $item->title ?></h2>
                         <p>Anno di uscita: <b><?= $item->movieRelease ?></b></p>
                         <p>Prezzo: <b> <?= $item->price ?>€</b></p>
