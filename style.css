@@ -4,14 +4,24 @@ li {
     padding: 20px;
     border-radius: 20px;
     cursor: pointer;
-    min-width: calc(100% / 4)
+    min-width: calc(100% / 4);
+    position: relative;
 }
 
 li:hover {
-    background-color: rgba(155, 207, 183, 0.377);
+    background-color: rgba(18, 69, 117, 0.377);
 }
 
 .title {
     border-bottom: 1px solid black;
     padding-bottom: 10px;
+}
+
+.badges {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(218, 55, 90, 0.493);
+    border-radius: 15px;
+    padding: 5px 10px;
 }
